@@ -1,0 +1,16 @@
+{
+  "name": "ai-invoice-organizer",
+  "version": "1.0.0",
+  "description": "AI-powered invoice and trip sheet organizer",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix server && npm run build --prefix client",
+    "start": "npm start --prefix server"
+  },
+  "keywords": ["invoice", "ai", "organizer"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
